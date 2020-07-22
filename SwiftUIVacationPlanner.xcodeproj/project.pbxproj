@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10CC1BF24C8822200C8A695 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10CC1BE24C8822200C8A695 /* AppDelegate.swift */; };
+		F10CC1C124C8822200C8A695 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10CC1C024C8822200C8A695 /* SceneDelegate.swift */; };
+		F10CC1C424C8822200C8A695 /* SwiftUIVacationPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F10CC1C224C8822200C8A695 /* SwiftUIVacationPlanner.xcdatamodeld */; };
+		F10CC1C624C8822200C8A695 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10CC1C524C8822200C8A695 /* ContentView.swift */; };
+		F10CC1C824C8822600C8A695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10CC1C724C8822600C8A695 /* Assets.xcassets */; };
+		F10CC1CB24C8822600C8A695 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10CC1CA24C8822600C8A695 /* Preview Assets.xcassets */; };
+		F10CC1CE24C8822600C8A695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10CC1CC24C8822600C8A695 /* LaunchScreen.storyboard */; };
+		F10CC1D924C8822600C8A695 /* SwiftUIVacationPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10CC1D824C8822600C8A695 /* SwiftUIVacationPlannerTests.swift */; };
+		F10CC1E424C8822600C8A695 /* SwiftUIVacationPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10CC1E324C8822600C8A695 /* SwiftUIVacationPlannerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F10CC1D524C8822600C8A695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10CC1B324C8822200C8A695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F10CC1BA24C8822200C8A695;
+			remoteInfo = SwiftUIVacationPlanner;
+		};
+		F10CC1E024C8822600C8A695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10CC1B324C8822200C8A695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F10CC1BA24C8822200C8A695;
+			remoteInfo = SwiftUIVacationPlanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F10CC1BB24C8822200C8A695 /* SwiftUIVacationPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIVacationPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10CC1BE24C8822200C8A695 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F10CC1C024C8822200C8A695 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F10CC1C324C8822200C8A695 /* SwiftUIVacationPlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUIVacationPlanner.xcdatamodel; sourceTree = "<group>"; };
+		F10CC1C524C8822200C8A695 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F10CC1C724C8822600C8A695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F10CC1CA24C8822600C8A695 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F10CC1CD24C8822600C8A695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F10CC1CF24C8822600C8A695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10CC1D424C8822600C8A695 /* SwiftUIVacationPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIVacationPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10CC1D824C8822600C8A695 /* SwiftUIVacationPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIVacationPlannerTests.swift; sourceTree = "<group>"; };
+		F10CC1DA24C8822600C8A695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10CC1DF24C8822600C8A695 /* SwiftUIVacationPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIVacationPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10CC1E324C8822600C8A695 /* SwiftUIVacationPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIVacationPlannerUITests.swift; sourceTree = "<group>"; };
+		F10CC1E524C8822600C8A695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10CC1B824C8822200C8A695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10CC1D124C8822600C8A695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10CC1DC24C8822600C8A695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F10CC1B224C8822200C8A695 = {
+			isa = PBXGroup;
+			children = (
+				F10CC1BD24C8822200C8A695 /* SwiftUIVacationPlanner */,
+				F10CC1D724C8822600C8A695 /* SwiftUIVacationPlannerTests */,
+				F10CC1E224C8822600C8A695 /* SwiftUIVacationPlannerUITests */,
+				F10CC1BC24C8822200C8A695 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F10CC1BC24C8822200C8A695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F10CC1BB24C8822200C8A695 /* SwiftUIVacationPlanner.app */,
+				F10CC1D424C8822600C8A695 /* SwiftUIVacationPlannerTests.xctest */,
+				F10CC1DF24C8822600C8A695 /* SwiftUIVacationPlannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F10CC1BD24C8822200C8A695 /* SwiftUIVacationPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				F10CC1BE24C8822200C8A695 /* AppDelegate.swift */,
+				F10CC1C024C8822200C8A695 /* SceneDelegate.swift */,
+				F10CC1C524C8822200C8A695 /* ContentView.swift */,
+				F10CC1C724C8822600C8A695 /* Assets.xcassets */,
+				F10CC1CC24C8822600C8A695 /* LaunchScreen.storyboard */,
+				F10CC1CF24C8822600C8A695 /* Info.plist */,
+				F10CC1C224C8822200C8A695 /* SwiftUIVacationPlanner.xcdatamodeld */,
+				F10CC1C924C8822600C8A695 /* Preview Content */,
+			);
+			path = SwiftUIVacationPlanner;
+			sourceTree = "<group>";
+		};
+		F10CC1C924C8822600C8A695 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F10CC1CA24C8822600C8A695 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F10CC1D724C8822600C8A695 /* SwiftUIVacationPlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F10CC1D824C8822600C8A695 /* SwiftUIVacationPlannerTests.swift */,
+				F10CC1DA24C8822600C8A695 /* Info.plist */,
+			);
+			path = SwiftUIVacationPlannerTests;
+			sourceTree = "<group>";
+		};
+		F10CC1E224C8822600C8A695 /* SwiftUIVacationPlannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F10CC1E324C8822600C8A695 /* SwiftUIVacationPlannerUITests.swift */,
+				F10CC1E524C8822600C8A695 /* Info.plist */,
+			);
+			path = SwiftUIVacationPlannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10CC1BA24C8822200C8A695 /* SwiftUIVacationPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10CC1E824C8822600C8A695 /* Build configuration list for PBXNativeTarget "SwiftUIVacationPlanner" */;
+			buildPhases = (
+				F10CC1B724C8822200C8A695 /* Sources */,
+				F10CC1B824C8822200C8A695 /* Frameworks */,
+				F10CC1B924C8822200C8A695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIVacationPlanner;
+			productName = SwiftUIVacationPlanner;
+			productReference = F10CC1BB24C8822200C8A695 /* SwiftUIVacationPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F10CC1D324C8822600C8A695 /* SwiftUIVacationPlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10CC1EB24C8822600C8A695 /* Build configuration list for PBXNativeTarget "SwiftUIVacationPlannerTests" */;
+			buildPhases = (
+				F10CC1D024C8822600C8A695 /* Sources */,
+				F10CC1D124C8822600C8A695 /* Frameworks */,
+				F10CC1D224C8822600C8A695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F10CC1D624C8822600C8A695 /* PBXTargetDependency */,
+			);
+			name = SwiftUIVacationPlannerTests;
+			productName = SwiftUIVacationPlannerTests;
+			productReference = F10CC1D424C8822600C8A695 /* SwiftUIVacationPlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F10CC1DE24C8822600C8A695 /* SwiftUIVacationPlannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10CC1EE24C8822600C8A695 /* Build configuration list for PBXNativeTarget "SwiftUIVacationPlannerUITests" */;
+			buildPhases = (
+				F10CC1DB24C8822600C8A695 /* Sources */,
+				F10CC1DC24C8822600C8A695 /* Frameworks */,
+				F10CC1DD24C8822600C8A695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F10CC1E124C8822600C8A695 /* PBXTargetDependency */,
+			);
+			name = SwiftUIVacationPlannerUITests;
+			productName = SwiftUIVacationPlannerUITests;
+			productReference = F10CC1DF24C8822600C8A695 /* SwiftUIVacationPlannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10CC1B324C8822200C8A695 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Henry Havens";
+				TargetAttributes = {
+					F10CC1BA24C8822200C8A695 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					F10CC1D324C8822600C8A695 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F10CC1BA24C8822200C8A695;
+					};
+					F10CC1DE24C8822600C8A695 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F10CC1BA24C8822200C8A695;
+					};
+				};
+			};
+			buildConfigurationList = F10CC1B624C8822200C8A695 /* Build configuration list for PBXProject "SwiftUIVacationPlanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F10CC1B224C8822200C8A695;
+			productRefGroup = F10CC1BC24C8822200C8A695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F10CC1BA24C8822200C8A695 /* SwiftUIVacationPlanner */,
+				F10CC1D324C8822600C8A695 /* SwiftUIVacationPlannerTests */,
+				F10CC1DE24C8822600C8A695 /* SwiftUIVacationPlannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10CC1B924C8822200C8A695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10CC1CE24C8822600C8A695 /* LaunchScreen.storyboard in Resources */,
+				F10CC1CB24C8822600C8A695 /* Preview Assets.xcassets in Resources */,
+				F10CC1C824C8822600C8A695 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10CC1D224C8822600C8A695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10CC1DD24C8822600C8A695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10CC1B724C8822200C8A695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10CC1BF24C8822200C8A695 /* AppDelegate.swift in Sources */,
+				F10CC1C424C8822200C8A695 /* SwiftUIVacationPlanner.xcdatamodeld in Sources */,
+				F10CC1C624C8822200C8A695 /* ContentView.swift in Sources */,
+				F10CC1C124C8822200C8A695 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10CC1D024C8822600C8A695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10CC1D924C8822600C8A695 /* SwiftUIVacationPlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10CC1DB24C8822600C8A695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10CC1E424C8822600C8A695 /* SwiftUIVacationPlannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F10CC1D624C8822600C8A695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F10CC1BA24C8822200C8A695 /* SwiftUIVacationPlanner */;
+			targetProxy = F10CC1D524C8822600C8A695 /* PBXContainerItemProxy */;
+		};
+		F10CC1E124C8822600C8A695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F10CC1BA24C8822200C8A695 /* SwiftUIVacationPlanner */;
+			targetProxy = F10CC1E024C8822600C8A695 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F10CC1CC24C8822600C8A695 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F10CC1CD24C8822600C8A695 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F10CC1E624C8822600C8A695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F10CC1E724C8822600C8A695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F10CC1E924C8822600C8A695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIVacationPlanner/Preview Content\"";
+				DEVELOPMENT_TEAM = V2CL8ZA4YA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIVacationPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.identifier.SwiftUIVacationPlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F10CC1EA24C8822600C8A695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIVacationPlanner/Preview Content\"";
+				DEVELOPMENT_TEAM = V2CL8ZA4YA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIVacationPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.identifier.SwiftUIVacationPlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F10CC1EC24C8822600C8A695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2CL8ZA4YA;
+				INFOPLIST_FILE = SwiftUIVacationPlannerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.identifier.SwiftUIVacationPlannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIVacationPlanner.app/SwiftUIVacationPlanner";
+			};
+			name = Debug;
+		};
+		F10CC1ED24C8822600C8A695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2CL8ZA4YA;
+				INFOPLIST_FILE = SwiftUIVacationPlannerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.identifier.SwiftUIVacationPlannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIVacationPlanner.app/SwiftUIVacationPlanner";
+			};
+			name = Release;
+		};
+		F10CC1EF24C8822600C8A695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2CL8ZA4YA;
+				INFOPLIST_FILE = SwiftUIVacationPlannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.identifier.SwiftUIVacationPlannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUIVacationPlanner;
+			};
+			name = Debug;
+		};
+		F10CC1F024C8822600C8A695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2CL8ZA4YA;
+				INFOPLIST_FILE = SwiftUIVacationPlannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.identifier.SwiftUIVacationPlannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUIVacationPlanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10CC1B624C8822200C8A695 /* Build configuration list for PBXProject "SwiftUIVacationPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10CC1E624C8822600C8A695 /* Debug */,
+				F10CC1E724C8822600C8A695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10CC1E824C8822600C8A695 /* Build configuration list for PBXNativeTarget "SwiftUIVacationPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10CC1E924C8822600C8A695 /* Debug */,
+				F10CC1EA24C8822600C8A695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10CC1EB24C8822600C8A695 /* Build configuration list for PBXNativeTarget "SwiftUIVacationPlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10CC1EC24C8822600C8A695 /* Debug */,
+				F10CC1ED24C8822600C8A695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10CC1EE24C8822600C8A695 /* Build configuration list for PBXNativeTarget "SwiftUIVacationPlannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10CC1EF24C8822600C8A695 /* Debug */,
+				F10CC1F024C8822600C8A695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F10CC1C224C8822200C8A695 /* SwiftUIVacationPlanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F10CC1C324C8822200C8A695 /* SwiftUIVacationPlanner.xcdatamodel */,
+			);
+			currentVersion = F10CC1C324C8822200C8A695 /* SwiftUIVacationPlanner.xcdatamodel */;
+			path = SwiftUIVacationPlanner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F10CC1B324C8822200C8A695 /* Project object */;
+}
