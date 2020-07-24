@@ -16,6 +16,9 @@
 		F10CC1CE24C8822600C8A695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10CC1CC24C8822600C8A695 /* LaunchScreen.storyboard */; };
 		F10CC1D924C8822600C8A695 /* SwiftUIVacationPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10CC1D824C8822600C8A695 /* SwiftUIVacationPlannerTests.swift */; };
 		F10CC1E424C8822600C8A695 /* SwiftUIVacationPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10CC1E324C8822600C8A695 /* SwiftUIVacationPlannerUITests.swift */; };
+		F10CC1F224C8827500C8A695 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10CC1F124C8827500C8A695 /* HomeView.swift */; };
+		F10CC1F524C882A400C8A695 /* LargeLocationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10CC1F424C882A400C8A695 /* LargeLocationButton.swift */; };
+		F10CC1F724C88D5300C8A695 /* Structs_Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10CC1F624C88D5300C8A695 /* Structs_Enums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		F10CC1DF24C8822600C8A695 /* SwiftUIVacationPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIVacationPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10CC1E324C8822600C8A695 /* SwiftUIVacationPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIVacationPlannerUITests.swift; sourceTree = "<group>"; };
 		F10CC1E524C8822600C8A695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10CC1F124C8827500C8A695 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F10CC1F424C882A400C8A695 /* LargeLocationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeLocationButton.swift; sourceTree = "<group>"; };
+		F10CC1F624C88D5300C8A695 /* Structs_Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs_Enums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		F10CC1B224C8822200C8A695 = {
 			isa = PBXGroup;
 			children = (
+				F10CC1F324C8827A00C8A695 /* Views */,
 				F10CC1BD24C8822200C8A695 /* SwiftUIVacationPlanner */,
 				F10CC1D724C8822600C8A695 /* SwiftUIVacationPlannerTests */,
 				F10CC1E224C8822600C8A695 /* SwiftUIVacationPlannerUITests */,
@@ -103,7 +110,6 @@
 			children = (
 				F10CC1BE24C8822200C8A695 /* AppDelegate.swift */,
 				F10CC1C024C8822200C8A695 /* SceneDelegate.swift */,
-				F10CC1C524C8822200C8A695 /* ContentView.swift */,
 				F10CC1C724C8822600C8A695 /* Assets.xcassets */,
 				F10CC1CC24C8822600C8A695 /* LaunchScreen.storyboard */,
 				F10CC1CF24C8822600C8A695 /* Info.plist */,
@@ -137,6 +143,17 @@
 				F10CC1E524C8822600C8A695 /* Info.plist */,
 			);
 			path = SwiftUIVacationPlannerUITests;
+			sourceTree = "<group>";
+		};
+		F10CC1F324C8827A00C8A695 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F10CC1F424C882A400C8A695 /* LargeLocationButton.swift */,
+				F10CC1C524C8822200C8A695 /* ContentView.swift */,
+				F10CC1F124C8827500C8A695 /* HomeView.swift */,
+				F10CC1F624C88D5300C8A695 /* Structs_Enums.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10CC1F524C882A400C8A695 /* LargeLocationButton.swift in Sources */,
 				F10CC1BF24C8822200C8A695 /* AppDelegate.swift in Sources */,
 				F10CC1C424C8822200C8A695 /* SwiftUIVacationPlanner.xcdatamodeld in Sources */,
+				F10CC1F724C88D5300C8A695 /* Structs_Enums.swift in Sources */,
 				F10CC1C624C8822200C8A695 /* ContentView.swift in Sources */,
+				F10CC1F224C8827500C8A695 /* HomeView.swift in Sources */,
 				F10CC1C124C8822200C8A695 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +463,7 @@
 				DEVELOPMENT_TEAM = V2CL8ZA4YA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIVacationPlanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +471,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = my.identifier.SwiftUIVacationPlanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,6 +484,7 @@
 				DEVELOPMENT_TEAM = V2CL8ZA4YA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIVacationPlanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,7 +492,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = my.identifier.SwiftUIVacationPlanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
